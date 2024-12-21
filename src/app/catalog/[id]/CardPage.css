@@ -1,0 +1,31 @@
+.card-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #1d2f30;
+  border: 2px solid #bae249;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  width: 500px;
+  height: 380px;
+  border: 2px solid #bae249;
+  object-fit: cover;
+}

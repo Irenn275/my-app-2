@@ -1,5 +1,5 @@
 
-import styles from './card.module.css'; 
+import styles from '@/components/card/card.module.css'; 
 
 export function Card({ name, description, imageUrl }) {
     return (

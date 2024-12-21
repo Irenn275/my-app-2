@@ -1,9 +1,9 @@
 
-import { Card } from "../../components/card/card"; 
+import { Card } from "@/components/card/Card"; 
 import Image from "next/image";
-import styles from "../app/page.module.css";
+import styles from "@/src/app/page.module.css";
 import Link from "next/link";
-import prisma from "../../lib/prisma";
+import prisma from "@/lib/prisma";
 import "./globals.css";
 
 
